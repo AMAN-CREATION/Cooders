@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aman Creation</title>
+    <link rel="stylesheet" href="mystyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img src="images/logo.jpg" alt="24coder logo" height="100"
+        /></a>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUTS</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOGS </a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>The Coders</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+          voluptatibus doloremque minus repudiandae, fugit sed aut consequuntur
+          quis minima.
+        </p>
+        <a href="/home.html" class="hero-btn">READ MORE</a>
+      </div>
+    </section>
+
+    <!-- COURSE -->
+    <section class="course">
+      <h1>Learn coding</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Basic learning</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            voluptatibus obcaecati animi totam saepe ea tenetur sunt aspernatur
+            quam? Dignissimos ea ratione cum quia eius libero exercitationem.
+            Praesentium, harum tempora?
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Example</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            voluptatibus obcaecati animi totam saepe ea tenetur sunt aspernatur
+            quam? Dignissimos ea ratione cum quia eius libero exercitationem.
+            Praesentium, harum tempora?
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Contest</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            voluptatibus obcaecati animi totam saepe ea tenetur sunt aspernatur
+            quam? Dignissimos ea ratione cum quia eius libero exercitationem.
+            Praesentium, harum tempora?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="campus">
+      <h1>Sharpen your skills</h1>
+      <p>
+        Challenge yourself on small coding exercises called "kata". Each kata is
+        crafted by the community to help you strengthen different coding skills.
+        Master your current language of choice, or learn any of the 55+
+        programming languages supported.
+      </p>
+      <div class="row">
+        <div class="campus-col">
+          <img
+            src="https://www.codewars.com/packs/assets/copy-skills.89e8a4d5.png"
+            alt=""
+          />
+          <div class="layer">
+            <h3>Practice</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img
+            src="https://www.pluralsight.com/content/dam/pluralsight2/individual/illustration-course-library.png"
+            alt=""
+          />
+          <div class="layer">
+            <h3>Top Language</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img
+            src="https://www.pluralsight.com/content/dam/pluralsight2/individual/illustration-hands-on-learning.png"
+            alt=""
+          />
+          <div class="layer">
+            <h3>Free Project & Course</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JavaScript for menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px ";
+      }
+    </script>
+    <!-- JavaScript for menu -->
+  </body>
+</html>
